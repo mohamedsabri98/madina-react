@@ -1,0 +1,13 @@
+.image-box {
+  width: 120px;
+  height: 120px;
+}
+
+.img-figure {
+  width: 250px;
+  height: 225px;
+  transition: transform 0.3s ease-in-out;
+}
+.img-figure:hover {
+  transform: scale(1.2);
+}

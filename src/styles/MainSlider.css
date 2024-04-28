@@ -1,0 +1,146 @@
+/* 
+===============================================================
+Slider Styles
+=============================================================== 
+*/
+
+.btn-style-one {
+  position: relative;
+  line-height: 24px;
+  color: #222222;
+  font-size: 15px;
+  font-weight: 700;
+  background: #e55039;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid #e55039;
+  padding: 11px 30px 11px;
+}
+.btn-style-one:hover {
+  background: none;
+  color: #e55039;
+}
+
+.btn-style-two {
+  position: relative;
+  line-height: 24px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  background: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid #ffffff;
+  padding: 11px 30px 11px;
+}
+
+.btn-style-two:hover {
+  color: #222222;
+  background: #e55039;
+  border: 2px solid #e55039;
+}
+
+.slider-container {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+.slider-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-text {
+  text-align: center;
+  font-weight: 650;
+  font-size: 45px;
+}
+
+.button-container {
+  position: absolute;
+  margin-top: 105px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 
+===============================================================
+Main Header Styles
+=============================================================== 
+*/
+.main-container {
+  background-color: #000;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+/* navbar -> nav-link */
+.navbar-custom .nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus {
+  border-radius: 18px;
+  background-color: #d12709;
+}
+/* navbar -> dropdown-menu */
+.navbar-custom .dropdown-menu {
+  background-color: #ffffff;
+  width: 250px;
+}
+
+.navbar-custom .dropdown-menu a {
+  color: #000000 !important;
+  padding: 10px;
+}
+
+.navbar-custom .dropdown-menu a:hover,
+.navbar-custom .dropdown-menu a:focus {
+  background-color: #d12709;
+  color: #fff !important;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+/* 
+===============================================================
+Main Header Styles
+=============================================================== 
+*/
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.sticky-header .navbar-custom {
+  background-color: #272727;
+  opacity: 0.75;
+  height: 50px;
+}

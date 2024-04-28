@@ -1,0 +1,30 @@
+/* 
+===============================================================
+Common Styles
+=============================================================== 
+*/
+:root {
+  --primary-color: #ef381b;
+  --secondary-color: #ffffff;
+}
+
+.main-color {
+  color: var(--primary-color) !important;
+}
+
+.main-title {
+  color: var(--primary-color) !important;
+}
+
+.title-bg {
+  position: relative;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  padding-right: 7px;
+  padding-left: 7px;
+  border-radius: 15px;
+}
