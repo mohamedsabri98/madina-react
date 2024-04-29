@@ -20,7 +20,7 @@ function BilletTab() {
   return (
     <div className="container mt-5 mb-">
       <div className="mt-5 mb-5">
-        <span className="title-bg">
+        <span className="title-bg media-billet-title">
           {t('Billets- (Smelting Plant) Steel Billets')}
         </span>
       </div>
@@ -45,7 +45,7 @@ function BilletTab() {
             <img
               src={proImg}
               alt="product-img"
-              className="rounded-5"
+              className="rounded-5 media-billet-img"
               style={{ width: "100%", height: "400px" }}
             />
           </div>
@@ -67,7 +67,7 @@ function BilletTab() {
             <img
               src={proImg}
               alt="product-img"
-              className="rounded-5"
+              className="rounded-5 media-billet-img"
               style={{ width: "100%", height: "400px" }}
             />
           </div>

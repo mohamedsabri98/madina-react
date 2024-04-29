@@ -3,7 +3,7 @@ import { Table } from "react-bootstrap";
 import "../styles/Global.css";
 function RebarInfoTable() {
   return (
-    <Table striped bordered responsive>
+    <Table striped bordered responsive >
       <thead>
         <tr style={{ textAlign: "center", backgroundColor: "#e75039" }}>
           <th>

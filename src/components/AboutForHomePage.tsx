@@ -6,12 +6,13 @@ function AboutForHomePage() {
 
   return (
     <div className="container mt-4">
-      <div className="d-flex justify-content-between">
-        <div className="m-4">
+      <div className=" d-flex justify-content-between ">
+        <div className="m-4 media-about">
           <img
             src={aboutImg}
             alt="aboutImg"
-            style={{ height: "550px", width: "600px", borderRadius: "30px" }}
+            className="media-image"
+            style={{ borderRadius: "30px" }}
           />
         </div>
         <div className="m-4">

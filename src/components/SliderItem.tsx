@@ -4,7 +4,6 @@ import "../styles/MainSlider.css";
 function SliderItem(props: any) {
   const { t } = useTranslation();
 
-
   return (
     <>
       <img className="d-block w-100" src={props.image} alt="slider item " />
@@ -12,10 +11,10 @@ function SliderItem(props: any) {
         <h3 className={props.styling}>{props.text}</h3>
       </div>
       <div className="button-container">
-        <a href="" className="btn-style-one me-4">
+        <a href="" className="btn-style-one ms-4 ">
           {t("Our Work")}
         </a>
-        <a href="" className="btn-style-two ms-4">
+        <a href="" className="btn-style-two ms-4  mt-2">
           {t("Contact Us")}
         </a>
       </div>

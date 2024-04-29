@@ -9,7 +9,7 @@ function Footer() {
 
   return (
     <footer style={{ backgroundImage: `url(${footerBG})` }}>
-      <div className="container d-flex">
+      <div className="container d-flex media-footer">
         <div className="pt-5">
           <span className="title-bg fs-3">{t("Contact Us")}</span>
           <h3 className="text-white mt-3 mb-3 ms-1">{t("Get in touch")}</h3>
@@ -42,7 +42,7 @@ function Footer() {
           />
         </div>
         <div className="ms-3 mt-4 mb-4">
-          <div className="d-flex">
+          <div className="d-flex media-location">
             <MapEmbed
               title={t("HeadQuarter")}
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.4640121979933!2d31.248381110358913!3d29.966092122175677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584792ec835fcf%3A0xfa530ec18aa0ed87!2z2YXYrNmF2YjYudipINin2YTZhdiv2YrZhtipINmE2YTYtdmE2Kg!5e0!3m2!1sen!2seg!4v1700916696452!5m2!1sen!2seg"

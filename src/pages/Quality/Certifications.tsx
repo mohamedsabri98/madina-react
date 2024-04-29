@@ -38,14 +38,14 @@ function Certifications() {
       <MainHeader />
       <PageHeader image={img} title={t("Certifications")} />
       <Container>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between media-cert">
           <div className=" mt-4 mb-5">
-            <span className="title-bg">
+            <span className="title-bg media-cert-title">
               {t("Consulting engineering approvals")}
             </span>
           </div>
           <div className="mt-4">
-            <Link to="/accreditation" className="btn btn-outline-danger">
+            <Link to="/accreditation" className="btn btn-outline-danger media-cert-btn">
               {t("Product accreditation")}
             </Link>
           </div>

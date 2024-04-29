@@ -54,7 +54,7 @@ function RebarTab() {
             <img
               src={proImg}
               alt="product-img"
-              className="rounded-5"
+              className="rounded-5 media-rebar-img"
               style={{ width: "100%", height: "400px" }}
             />
           </div>
@@ -72,7 +72,7 @@ function RebarTab() {
             <img
               src={proImg}
               alt="product-img"
-              className="rounded-5"
+              className="rounded-5 media-rebar-img"
               style={{ width: "100%", height: "400px" }}
             />
           </div>

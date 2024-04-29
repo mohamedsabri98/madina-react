@@ -12,8 +12,8 @@ function QuickLinks() {
   const { t } = useTranslation();
 
   return (
-    <div className="container mt-5 mb-5" style={{direction:"ltr"}}>
-      <div className="d-flex justify-content-center justify-content-between">
+    <div className="container mt-5 mb-5" style={{ direction: "ltr" }}>
+      <div className="media-quickLinks d-flex justify-content-center justify-content-between">
         <QuickLinksCard
           icon={productReiewIcon}
           image={productReiewImg}

@@ -39,13 +39,13 @@ function QualityControl() {
 
         {activeButton === "steel" && (
           <div className="d-flex justify-content-center">
-            <img src={steelImg} alt="" className=" mt-3 mb-5 rounded-3" />
+            <img src={steelImg} alt="" className=" mt-3 mb-5 rounded-3 media-quality-img" />
           </div>
         )}
 
         {activeButton === "billet" && (
           <div className="d-flex justify-content-center">
-            <img src={billetImg} alt="" className=" mt-3 mb-5 rounded-3" />
+            <img src={billetImg} alt="" className=" mt-3 mb-5 rounded-3 media-quality-img" />
           </div>
         )}
       </Container>

@@ -22,10 +22,10 @@ function Accreditation() {
       <div className="container">
         <div className="d-flex justify-content-between">
           <div className="mt-4 mb-5">
-            <span className=" title-bg">{t('Product accreditation')}</span>
+            <span className=" title-bg media-cert-title">{t('Product accreditation')}</span>
           </div>
           <div className="mt-4">
-            <Link to="/certifications" className="btn btn-outline-danger">
+            <Link to="/certifications" className="btn btn-outline-danger media-cert-btn">
               {t('Consulting engineering approvals')}
             </Link>
           </div>
@@ -39,7 +39,7 @@ function Accreditation() {
           <img
             src={proImg}
             alt="product-img"
-            className="rounded-5"
+            className="rounded-5 media-accred-img"
             style={{ width: "100%", height: "400px" }}
           />
           <div className="d-flex flex-wrap mt-5 mb-5">

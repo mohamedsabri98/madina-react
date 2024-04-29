@@ -1,0 +1,113 @@
+/*
+==============================
+Styles for tablets
+==============================
+*/
+@media (max-width: 768px) {
+  /* CSS rules for tablets */
+}
+
+/* 
+==============================
+Styles for mobile phones 
+==============================
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .media-footer,
+  .media-location,
+  .media-products,
+  .media-quickLinks,
+  .button-container,
+  .media-subscribe,
+  .media-sponsores,
+  .subsribe-mail,
+  .media-whoweare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* MEDIA STYLES FOR HOME PAGE */
+  /* about section in home page */
+  .media-about .media-image {
+    display: none;
+  }
+  /* products section in home page */
+  .media-products img {
+    max-width: 310px;
+    max-height: 220px;
+  }
+  /* breif section */
+  .breif-text {
+    font-size: medium;
+  }
+  /* main slider section */
+  .slider-caption .slider-text {
+    font-size: x-large !important;
+  }
+  .media-header {
+    background-color: black;
+    opacity: 75%;
+  }
+  .sticky-header .navbar-custom {
+    background-color: black;
+    opacity: 75%;
+    height: 60px !important;
+  }
+
+  .btn-style-one,
+  .btn-style-one {
+    margin: 0;
+    padding: 0;
+  }
+
+  .media-subscribe {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .media-subscribe p {
+    font-size: x-small;
+  }
+  /* END STYLES FOR HOME PAGE */
+
+  /* MEDIA STYLES FOR ABOUT PAGE */
+  /* medai for AboutMidContent Component */
+  .media-whoweare-img,
+  .media-accred-img {
+    width: 330px !important;
+    height: 280px !important;
+  }
+  /* END MEDIA STYLES FOR ABOUT PAGE */
+
+  /* MEDIA STYLES FOR PRODUCTS PAGE */
+  /* medai for Rebar page */
+  .media-rebar-img,
+  .media-billet-img {
+    width: 330px !important;
+    height: 220px !important;
+  }
+  /* medai for Billet page */
+  .media-billet-title {
+    font-size: 22px;
+  }
+  /* END MEDIA STYLES FOR PRODUCTS PAGE */
+
+  /* MEDIA STYLES FOR QUALITY PAGE */
+  /* medai for Quality Control page */
+  .media-quality-img {
+    width: 350px !important;
+    height: 550px !important;
+  }
+  /* medai for Certifications page */
+
+  .media-cert-title {
+    font-size: 17px;
+  }
+  .media-cert-btn {
+    font-size: 12px;
+  }
+
+  /* END MEDIA STYLES FOR QUALITY PAGE */
+}

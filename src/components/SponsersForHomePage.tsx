@@ -35,7 +35,7 @@ function SponsersForHomePage() {
           }}
         />
 
-        <div className="container">
+        <div className="container media-sponsores">
           <div className="text-center m-5">
             <h2 className="main-title text-uppercase fs-1 fw-bolder">
               {t("Sponsors")}
@@ -49,6 +49,11 @@ function SponsersForHomePage() {
             autoplay
             autoplayTimeout={2000}
             items={4}
+            responsive={{
+              0: { items: 1 },
+              425: { items: 2 },
+              576: { items: 5 },
+            }}
           >
             <SponsersCarouselItem image={img1} />
             <SponsersCarouselItem image={img2} />

@@ -11,7 +11,7 @@ function ProductsForHomePage() {
       <div className="container">
         <h1 className="main-title mb-3">{t("Al-Madina Products")}</h1>
         <p className=" fs-5 mb-3">{t("products-text")}</p>
-        <div className="d-flex justify-content-between">
+        <div className="media-products d-flex justify-content-between">
           <ProductItem
             image={rebar}
             title={"Rebar"}
