@@ -8,7 +8,7 @@ import ProjectsImg5 from "../images/projects/7.jpg";
 import ProjectsImg6 from "../images/projects/8.jpg";
 import ProjectsImg7 from "../images/projects/9.jpg";
 import { useTranslation } from "react-i18next";
-
+import { Link } from "react-router-dom";
 function Projects() {
   const { t } = useTranslation();
 
@@ -33,7 +33,9 @@ function Projects() {
           <ProjectsFigure url={ProjectsImg7} image={ProjectsImg7} />
           <ProjectsFigure url={ProjectsImg1} image={ProjectsImg1} />
         </div>
-        <button className="main-btn m-5">{t("More")}</button>
+        <Link to="/mega-projects" className="main-btn m-5">
+          {t("More")}
+        </Link>
       </div>
     </div>
   );

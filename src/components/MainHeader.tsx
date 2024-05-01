@@ -73,6 +73,9 @@ function MainHeader() {
                       <Link to="/values" className="dropdown-item">
                         {t("Values")}
                       </Link>
+                      <Link to="/sponsors" className="dropdown-item">
+                        {t("Sponsors")}
+                      </Link>
                     </NavDropdown>
                     <NavDropdown
                       title={t("Products")}

@@ -3,7 +3,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js";
 import i18n from "./lang/I18n";
 import "./styles/rtl.css";
-import "./styles/Media.css"
+import "./styles/Media.css";
 import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
@@ -20,6 +20,7 @@ import MegaProjects from "./pages/Projects/MegaProjects";
 import HousingProjects from "./pages/Projects/HousingProjects";
 import Accreditation from "./pages/Projects/Accreditation";
 import FindUs from "./pages/FindUs";
+import Sponsores from "./components/Sponsores";
 
 function App() {
   const [isRTL, setIsRTL] = useState(false);
@@ -53,7 +54,7 @@ function App() {
           <Route path="/vision" element={<Vission />} />
           <Route path="/values" element={<Values />} />
           <Route path="/rebar" element={<Rebar />} />
-          <Route path="/bellet" element={<Bellet />} />
+          <Route path="/billet" element={<Bellet />} />
           <Route path="/catalogue" element={<Catalogue />} />
           <Route path="/quality-control" element={<QualityControl />} />
           <Route path="/certifications" element={<Certifications />} />
@@ -61,6 +62,8 @@ function App() {
           <Route path="/housing-projects" element={<HousingProjects />} />
           <Route path="/accreditation" element={<Accreditation />} />
           <Route path="/find-us" element={<FindUs />} />
+          <Route path="/sponsors" element={<Sponsores />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </Router>
     </div>

@@ -14,13 +14,15 @@ function ProductsForHomePage() {
         <div className="media-products d-flex justify-content-between">
           <ProductItem
             image={rebar}
-            title={"Rebar"}
+            title={t("Rebar")}
             text={t("product-rebar-text")}
+            link='/rebar'
           />
           <ProductItem
             image={bellet}
-            title={"Bellet"}
+            title={t("Billet")}
             text={t("product-bellet-text")}
+            link='/billet'
           />
         </div>
       </div>

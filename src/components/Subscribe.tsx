@@ -21,7 +21,7 @@ function Subscribe() {
               </div>
             </div>
           </div>
-          <div className="col-md-6 w-100" style={{ backgroundColor: "#E55039" }}>
+          <div className="col-md-6" style={{ backgroundColor: "#E55039", width:'580px'}}>
             <div className="m-5">
               <div className="d-flex mt-3 subsribe-mail">
                 <input

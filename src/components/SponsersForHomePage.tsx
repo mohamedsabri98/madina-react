@@ -1,4 +1,3 @@
-import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -18,6 +17,7 @@ import tatweer from "../images/sponsers/tatweer.png";
 import SponsersCarouselItem from "./SponsersCarouselItem";
 import SponsersBgImg from "../images/background/8.jpg";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function SponsersForHomePage() {
   const { t } = useTranslation();
@@ -48,11 +48,10 @@ function SponsersForHomePage() {
             nav
             autoplay
             autoplayTimeout={2000}
-            items={4}
             responsive={{
               0: { items: 1 },
               425: { items: 2 },
-              576: { items: 5 },
+              576: { items: 4 },
             }}
           >
             <SponsersCarouselItem image={img1} />
@@ -69,6 +68,11 @@ function SponsersForHomePage() {
             <SponsersCarouselItem image={sun} />
             <SponsersCarouselItem image={tatweer} />
           </OwlCarousel>
+        </div>
+        <div className="d-flex justify-content-center mt-4">
+          <Link to="/sponsores" className="main-btn mb-3">
+            {t("More")}
+          </Link>
         </div>
       </div>
     </>

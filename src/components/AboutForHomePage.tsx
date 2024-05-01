@@ -12,7 +12,7 @@ function AboutForHomePage() {
             src={aboutImg}
             alt="aboutImg"
             className="media-image"
-            style={{ borderRadius: "30px" }}
+            style={{ borderRadius: "30px", width:'450px', height:'450px'}}
           />
         </div>
         <div className="m-4">

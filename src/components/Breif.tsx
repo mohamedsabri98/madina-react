@@ -1,5 +1,7 @@
-import { useTranslation } from "react-i18next";
 import "../styles/Breif.css";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+
 function Breif() {
   const { t } = useTranslation();
 
@@ -9,9 +11,9 @@ function Breif() {
         <h2 className="breif-text">{t("breif-text")}</h2>
       </div>
       <div className="text-center mt-5">
-        <a href="" className="main-btn">
-          {t("More")}
-        </a>
+        <Link to="/who-we-are" className="main-btn">
+          {t("About us")}
+        </Link>
       </div>
     </div>
   );
