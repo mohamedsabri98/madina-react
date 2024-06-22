@@ -31,6 +31,9 @@ function RebarTab() {
       <div className="mt-5 mb-5">
         <span className="title-bg">{t('Steel Rebar')}</span>
       </div>
+      <div>
+        <p className="fs-6 mb-4">{t('rebar-info')}</p>
+      </div>
       <Tabs
         id="controlled-tab-example"
         activeKey={activeKey}

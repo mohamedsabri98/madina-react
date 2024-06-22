@@ -21,7 +21,8 @@ function Subscribe() {
               </div>
             </div>
           </div>
-          <div className="col-md-6" style={{ backgroundColor: "#E55039", width:'580px'}}>
+          <div></div>
+          <div className="col-md-6 rounded-4" style={{ backgroundColor: "#E55039" }}>
             <div className="m-5">
               <div className="d-flex mt-3 subsribe-mail">
                 <input
@@ -30,7 +31,9 @@ function Subscribe() {
                   placeholder={t("Enter your email")}
                   className="form-control mb-3"
                 />
-                <button className="main-btn border-0 ms-3 mb-3">{t("Send Mail")}</button>
+                <button className="main-btn border-0 ms-3 mb-3">
+                  {t("Send Mail")}
+                </button>
               </div>
             </div>
           </div>

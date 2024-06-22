@@ -45,11 +45,15 @@ function Certifications() {
             </span>
           </div>
           <div className="mt-4">
-            <Link to="/accreditation" className="btn btn-outline-danger media-cert-btn">
+            <Link
+              to="/accreditation"
+              className="btn btn-outline-danger media-cert-btn"
+            >
               {t("Product accreditation")}
             </Link>
           </div>
         </div>
+        <p className="fs-6 mb-4">{t("accreditation-info")}</p>
         <div className="d-flex flex-wrap">
           <CertificationFigure url={certificatImg1} image={certificatImg1} />
           <CertificationFigure url={certificatImg2} image={certificatImg2} />

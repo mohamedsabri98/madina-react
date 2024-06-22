@@ -15,12 +15,7 @@ function Vission() {
       <PageHeader image={headerImg} title={t("Vision")} />
       <AboutMidContent
         title={t("Our Vision")}
-        text1={t(
-          "Almadina Steel pursues the sustainable growth of iron and steel manufacturing from a long-term perspective."
-        )}
-        text2={t(
-          "Becoming a steel and mining pioneer was never our only end, rather we aspire to establish a true steel entity, significantly influences the local and regional markets."
-        )}
+        text1={t("vision-info")}
         image={img}
       />
       <Footer />

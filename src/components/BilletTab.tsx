@@ -24,6 +24,9 @@ function BilletTab() {
           {t('Billets- (Smelting Plant) Steel Billets')}
         </span>
       </div>
+      <div>
+        <p className="fs-6 mb-4">{t('billet-info')}</p>
+      </div>
       <Tabs
         id="controlled-tab-example"
         activeKey={activeKey}

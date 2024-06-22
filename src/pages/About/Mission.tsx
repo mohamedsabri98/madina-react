@@ -7,7 +7,7 @@ import headerImg from "../../images/background/13.jpg";
 import img from "../../images/about/mission.jpg";
 import { useTranslation } from "react-i18next";
 
-function Mission() {
+function Mission() {  
   const { t } = useTranslation();
   const missionTextPoints = t("mission_text_points", {
     returnObjects: true,
@@ -23,11 +23,9 @@ function Mission() {
         text1={
           <>
             <p>{t("mission_text_intro")}</p>
-            <ol>
-              {missionTextPoints.map((point, index) => (
-                <li key={index}>{point}</li>
-              ))}
-            </ol>
+            {missionTextPoints.map((point, index) => (
+              <p key={index}>{point}</p>
+            ))}
             <p>{t("mission_text_conclusion")}</p>
             <p>{t("mission_text_last")}</p>
           </>

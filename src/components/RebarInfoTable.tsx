@@ -1,6 +1,5 @@
-import React from "react";
 import { Table } from "react-bootstrap";
-import "../styles/Global.css";
+
 function RebarInfoTable() {
   return (
     <Table striped bordered responsive >

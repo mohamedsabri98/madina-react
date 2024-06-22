@@ -24,7 +24,7 @@ function FindUs() {
         />
         <ContactInfoItem
           iconClass="bi bi-clock"
-          text="Open Hours 09:00 am - 05:00 pm"
+          text="working hours       09:00 am - 05:00 pm"
         />
         <ContactInfoItem
           iconClass="bi bi-envelope"
@@ -43,13 +43,13 @@ function FindUs() {
         <div className="d-flex m-2">
           <h3 className="main-color fw-bold mt-1">{t("Follow on")}</h3>
           <div className="ms-3 ">
-            <a href="#">
+            <a href="https://www.facebook.com/MDS2030/">
               <i className="bi bi-facebook ms-4 fs-3 "></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/almadinasteel/">
               <i className="bi bi-instagram ms-4 fs-4 "></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/company/almadinasteel">
               <i className="bi bi-linkedin ms-4 fs-4 "></i>
             </a>
           </div>
